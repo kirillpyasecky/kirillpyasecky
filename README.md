@@ -1,25 +1,32 @@
 # Hello there 👋
 
-```python
-class SoftwareEngineer:
+```cpp
+class SoftwareEngineer {
+   public:
+    SoftwareEngineer() 
+        : name{"Kirill Pyaseckiy"}
+        , role{"Software Engineer"}
+        , language_spoken{"en", "be", "ru"}
+        , programming_languages{"C++", "Python"}
+        , skills{"Assembler", "GDB", "Linux"} {
+        SayHi();
+    }
 
-    def __init__(self):
-        self.name = "Kirill Pyaseckiy"
-        self.role = "Software Engineer"
-        self.language_spoken = ["en", "be", "ru"]
-        self.programming_languages = ["C++", "Python"]
-        self.skills = ["Assembler", "GDB", "Linux"]
+    void SayHi() {
+        std::cout << "Thanks for dropping by, hope you find some of my work interesting.\n";
+    }
 
-    def say_hi(self):
-        print("Thanks for dropping by, hope you find some of my work interesting.")
-
-
-me = SoftwareEngineer()
-me.say_hi()
+   private:
+    std::string name;
+    std::string role;
+    std::map<std::string> language_spoken;
+    std::map<std::string> programming_languages;
+    std::map<std::string> skills;
+};
 ```
 
 ## Projects
 
 <a href="https://github.com/appa-labs/Achilles">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=appa-labs&repo=Achilles&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="DA-RNN" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=appa-labs&repo=Achilles&show_icons=true&line_height=27" alt="kirillpyasecky" />
 </a>
