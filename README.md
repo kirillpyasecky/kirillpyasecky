@@ -1,16 +1,25 @@
-### Hi there 👋
+# Hello there 👋
 
-<!--
-**kirillpyasecky/kirillpyasecky** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+class SoftwareEngineer:
 
-Here are some ideas to get you started:
+    def __init__(self):
+        self.name = "Kirill Pyaseckiy"
+        self.role = "Software Engineer"
+        self.language_spoken = ["en", "be", "ru"]
+        self.programming_languages = ["C++", "Python"]
+        self.skills = ["Assembler", "GDB", "Linux"]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def say_hi(self):
+        print("Thanks for dropping by, hope you find some of my work interesting.")
+
+
+me = SoftwareEngineer()
+me.say_hi()
+```
+
+## Projects
+
+<a href="https://github.com/appa-labs/Achilles">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=appa-labs&repo=Achilles&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="DA-RNN" />
+</a>
