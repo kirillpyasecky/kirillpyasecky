@@ -19,9 +19,9 @@ class SoftwareEngineer {
    private:
     std::string name;
     std::string role;
-    std::map<std::string> language_spoken;
-    std::map<std::string> programming_languages;
-    std::map<std::string> skills;
+    std::set<std::string> language_spoken;
+    std::set<std::string> programming_languages;
+    std::set<std::string> skills;
 };
 ```
 
