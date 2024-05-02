@@ -4,11 +4,11 @@
 class SoftwareEngineer {
    public:
     SoftwareEngineer() 
-        : name{"Kirill Pyaseckiy"}
-        , role{"Software Engineer"}
-        , language_spoken{"en", "be", "ru"}
-        , programming_languages{"C++", "Python"}
-        , skills{"Assembler", "GDB", "Linux"} {
+        : name_{"Kirill Pyaseckiy"}
+        , role_{"Software Engineer"}
+        , language_spoken_{"en", "be", "ru"}
+        , programming_languages_{"C++", "Python"}
+        , skills_{"Assembler", "GDB", "Linux"} {
         SayHi();
     }
 
@@ -17,11 +17,11 @@ class SoftwareEngineer {
     }
 
    private:
-    std::string name;
-    std::string role;
-    std::set<std::string> language_spoken;
-    std::set<std::string> programming_languages;
-    std::set<std::string> skills;
+    std::string name_;
+    std::string role_;
+    std::set<std::string> language_spoken_;
+    std::set<std::string> programming_languages_;
+    std::set<std::string> skills_;
 };
 ```
 
